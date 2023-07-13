@@ -6,6 +6,12 @@ purpose of the file is to pass control to the app’s first module.
 
 import { Application } from '@nativescript/core';
 
+let consoleManager = LCManager.shared()
+console.log(consoleManager.isVisible)
+consoleManager.isVisible = true
+console.log(consoleManager.isVisible)
+consoleManager.print("PRINT!")
+
 Application.run({ moduleName: 'app-root' })
 
 /*

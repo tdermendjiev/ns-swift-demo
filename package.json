@@ -8,6 +8,7 @@
     "@nativescript/theme": "~3.0.2"
   },
   "devDependencies": {
+    "@nativescript/ios": "file:../../../../users/teodordermendzhiev/workspace/ns-v8ios-runtime/dist/nativescript-ios-8.5.2-alpha.3.tgz",
     "@nativescript/webpack": "~5.0.14"
   }
 }
